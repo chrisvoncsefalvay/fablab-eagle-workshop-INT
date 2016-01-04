@@ -1425,20 +1425,20 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/tr&gt;
 &lt;/table&gt;</description>
 <packages>
-<package name="C1210">
+<package name="C1206">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="-0.9652" y1="1.2446" x2="0.9652" y2="1.2446" width="0.1016" layer="51"/>
-<wire x1="-0.9652" y1="-1.2446" x2="0.9652" y2="-1.2446" width="0.1016" layer="51"/>
-<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-1.2954" x2="-0.9517" y2="1.3045" layer="51"/>
-<rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 <package name="R1206">
@@ -2084,28 +2084,28 @@ Your Eurocircuits Team
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="microbuilder" package="EIA6032-28/C-R" value="10uF" x="17.78" y="34.29" smashed="yes" rot="R270">
+<element name="C2" library="microbuilder" package="EIA6032-28/C-R" value="10uF" x="17.78" y="34.29" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.941965625" y="33.06193125" size="1.27" layer="25" font="vector" ratio="4" rot="R270"/>
 <attribute name="VALUE" x="17.143" y="29.924" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C2" library="microbuilder" package="EIA6032-28/C-R" value="10uF" x="17.78" y="44.45" smashed="yes" rot="R90">
+<element name="C4" library="microbuilder" package="EIA6032-28/C-R" value="10uF" x="17.78" y="44.45" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.039096875" y="46.010878125" size="1.27" layer="25" font="vector" ratio="4" rot="R90"/>
 <attribute name="VALUE" x="18.417" y="48.816" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C3" library="rcl" package="C1210" value="0.1uF" x="50.8" y="27.94" smashed="yes" rot="MR270">
+<element name="C5" library="rcl" package="C1206" value="0.1uF" x="50.8" y="27.94" smashed="yes" rot="MR270">
 <attribute name="NAME" x="48.895" y="29.845" size="1.27" layer="26" font="vector" ratio="4" rot="MR270"/>
 <attribute name="VALUE" x="53.975" y="29.845" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="C4" library="rcl" package="C1210" value="0.1uF" x="24.13" y="36.83" smashed="yes" rot="R270">
+<element name="C1" library="rcl" package="C1206" value="0.1uF" x="24.13" y="36.83" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.04200625" y="37.308665625" size="1.27" layer="25" font="vector" ratio="4" rot="R270"/>
 <attribute name="VALUE" x="20.955" y="38.735" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C5" library="rcl" package="C1210" value="0.1uF" x="26.67" y="44.45" smashed="yes">
+<element name="C3" library="rcl" package="C1206" value="0.1uF" x="26.67" y="44.45" smashed="yes">
 <attribute name="NAME" x="24.765" y="46.355" size="1.27" layer="25" font="vector" ratio="4"/>
 <attribute name="VALUE" x="24.765" y="41.275" size="1.27" layer="27"/>
 </element>
-<element name="FID1" library="microbuilder" package="PASS-ROUND" value="FIDUCIALROUND" x="22.86" y="49.53" smashed="yes"/>
-<element name="FID2" library="microbuilder" package="PASS-ROUND" value="FIDUCIALROUND" x="56.071815625" y="28.8608625" smashed="yes"/>
+<element name="FID2" library="microbuilder" package="PASS-ROUND" value="FIDUCIALROUND" x="22.86" y="49.53" smashed="yes"/>
+<element name="FID1" library="microbuilder" package="PASS-ROUND" value="FIDUCIALROUND" x="56.071815625" y="28.8608625" smashed="yes"/>
 <element name="G1" library="battery" package="10MM_SM_COIN_CELL_CLIP" value="10MM_SM_COIN_CELL_CLIP" x="50.8" y="16.51" smashed="yes">
 <attribute name="VALUE" x="46.31745" y="10.07065" size="1.27" layer="27" font="vector"/>
 </element>
@@ -2129,15 +2129,15 @@ Your Eurocircuits Team
 <attribute name="NAME" x="44.45" y="58.42" size="1.27" layer="25" font="vector" ratio="4" rot="R270"/>
 <attribute name="VALUE" x="40.64" y="58.42" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R3" library="rcl" package="R1206" value="56R" x="45.72" y="44.45" smashed="yes">
+<element name="R5" library="rcl" package="R1206" value="56R" x="45.72" y="44.45" smashed="yes">
 <attribute name="NAME" x="44.45" y="45.72" size="1.27" layer="25" font="vector" ratio="4"/>
 <attribute name="VALUE" x="44.45" y="41.91" size="1.27" layer="27"/>
 </element>
-<element name="R5" library="rcl" package="R1206" value="68R" x="33.02" y="43.18" smashed="yes" rot="R180">
+<element name="R4" library="rcl" package="R1206" value="68R" x="33.02" y="43.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.02" y="45.72" size="1.27" layer="25" font="vector" ratio="4" rot="R180"/>
 <attribute name="VALUE" x="34.29" y="45.72" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R6" library="rcl" package="R1206" value="10k" x="38.1" y="29.21" smashed="yes" rot="R90">
+<element name="R3" library="rcl" package="R1206" value="10k" x="38.1" y="29.21" smashed="yes" rot="R90">
 <attribute name="NAME" x="36.306925" y="29.5565125" size="1.27" layer="25" font="vector" ratio="4" rot="R90"/>
 <attribute name="VALUE" x="40.64" y="27.94" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -2145,7 +2145,7 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="45.6199" y="24.13" size="0.02" layer="27"/>
 <attribute name="VALUE" x="44.45" y="22.225" size="0.4064" layer="27"/>
 </element>
-<element name="U$2" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="35.56" y="25.4" smashed="yes" rot="R90">
+<element name="SW1" library="GeekAmmo" package="7914G" value="TACTILE-SWITCH-7914G" x="35.56" y="25.4" smashed="yes" rot="R90">
 <attribute name="VALUE" x="35.56" y="30.48" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="U1" library="Atmel_By_element14_Batch_1-00" package="SOIC127P798X216-8N" value="ATTINY85-20SU" x="33.02" y="36.83" smashed="yes">
@@ -2157,12 +2157,12 @@ Your Eurocircuits Team
 <attribute name="NAME" x="29.348246875" y="31.001665625" size="1.27" layer="25" font="vector" ratio="4" rot="SR0"/>
 <attribute name="VALUE" x="29.5656" y="41.91" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 </element>
-<element name="U2" library="SparkFun-DigitalIC" package="FN-6" value="TSL2561FN" x="45.72" y="27.94" smashed="yes" rot="MR0">
+<element name="U3" library="SparkFun-DigitalIC" package="FN-6" value="TSL2561FN" x="45.72" y="27.94" smashed="yes" rot="MR0">
 <attribute name="PROD_ID" value="IC-11791" x="45.72" y="27.94" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="45.72" y="29.19" size="1.27" layer="26" font="vector" ratio="4" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="45.72" y="26.69" size="0.4064" layer="28" rot="MR180" align="bottom-center"/>
 </element>
-<element name="U4" library="microbuilder" package="SOT223-R" value="LM1117/5V" x="24.13" y="25.4" smashed="yes" rot="R270">
+<element name="U2" library="microbuilder" package="SOT223-R" value="LM1117/5V" x="24.13" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.684971875" y="26.5774875" size="1.27" layer="25" font="vector" ratio="4" rot="R270"/>
 <attribute name="VALUE" x="23.495" y="28.194" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -2171,17 +2171,17 @@ Your Eurocircuits Team
 <signals>
 <signal name="GND">
 <contactref element="U1" pad="4"/>
-<contactref element="C4" pad="2"/>
-<contactref element="U2" pad="3"/>
-<contactref element="C1" pad="-"/>
+<contactref element="C1" pad="2"/>
+<contactref element="U3" pad="3"/>
 <contactref element="C2" pad="-"/>
-<contactref element="U4" pad="1"/>
+<contactref element="C4" pad="-"/>
+<contactref element="U2" pad="1"/>
 <contactref element="LED1" pad="3"/>
 <contactref element="LED1" pad="2"/>
 <contactref element="LED1" pad="1"/>
-<contactref element="R6" pad="2"/>
+<contactref element="R3" pad="2"/>
 <contactref element="SJ1" pad="3"/>
-<contactref element="C3" pad="2"/>
+<contactref element="C5" pad="2"/>
 <contactref element="G1" pad="-"/>
 <contactref element="J1" pad="6"/>
 <wire x1="50.8" y1="16.51" x2="50.8" y2="21.59" width="0.4064" layer="1"/>
@@ -2254,7 +2254,7 @@ Your Eurocircuits Team
 </polygon>
 </signal>
 <signal name="PB0">
-<contactref element="U2" pad="6"/>
+<contactref element="U3" pad="6"/>
 <contactref element="R1" pad="1"/>
 <contactref element="U1" pad="5"/>
 <contactref element="J1" pad="4"/>
@@ -2289,7 +2289,7 @@ Your Eurocircuits Team
 <wire x1="38.164896875" y1="36.213340625" x2="36.7284" y2="36.195" width="0.4064" layer="1"/>
 </signal>
 <signal name="PB2">
-<contactref element="U2" pad="4"/>
+<contactref element="U3" pad="4"/>
 <contactref element="R2" pad="1"/>
 <contactref element="U1" pad="7"/>
 <contactref element="J1" pad="3"/>
@@ -2316,7 +2316,7 @@ Your Eurocircuits Team
 <wire x1="38.455309375" y1="38.253453125" x2="38.455309375" y2="36.821925" width="0.4064" layer="1"/>
 </signal>
 <signal name="PB3">
-<contactref element="R5" pad="2"/>
+<contactref element="R4" pad="2"/>
 <contactref element="U1" pad="2"/>
 <wire x1="31.598" y1="43.18" x2="31.598" y2="41.758" width="0.4064" layer="1"/>
 <wire x1="31.598" y1="41.758" x2="30.48" y2="40.64" width="0.4064" layer="1"/>
@@ -2329,7 +2329,7 @@ Your Eurocircuits Team
 <wire x1="28.6766" y1="38.1" x2="29.3116" y2="37.465" width="0.4064" layer="1"/>
 </signal>
 <signal name="PB4">
-<contactref element="R3" pad="1"/>
+<contactref element="R5" pad="1"/>
 <contactref element="U1" pad="3"/>
 <wire x1="29.3116" y1="36.195" x2="31.115" y2="36.195" width="0.4064" layer="1"/>
 <wire x1="31.115" y1="36.195" x2="36.83" y2="40.64" width="0.4064" layer="1"/>
@@ -2340,7 +2340,7 @@ Your Eurocircuits Team
 </signal>
 <signal name="PB5">
 <contactref element="U1" pad="1"/>
-<contactref element="C5" pad="2"/>
+<contactref element="C3" pad="2"/>
 <contactref element="J1" pad="5"/>
 <wire x1="28.07" y1="44.45" x2="29.3116" y2="43.2084" width="0.4064" layer="1"/>
 <wire x1="29.3116" y1="43.2084" x2="29.3116" y2="38.735" width="0.4064" layer="1"/>
@@ -2351,7 +2351,7 @@ Your Eurocircuits Team
 </signal>
 <signal name="N$2">
 <contactref element="SJ1" pad="2"/>
-<contactref element="U2" pad="2"/>
+<contactref element="U3" pad="2"/>
 <via x="48.635684375" y="26.67" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="48.635684375" y1="26.67" x2="47.872578125" y2="27.94" width="0.4064" layer="16"/>
 <wire x1="47.872578125" y1="27.94" x2="46.495" y2="27.94" width="0.4064" layer="16"/>
@@ -2360,8 +2360,8 @@ Your Eurocircuits Team
 <wire x1="46.99" y1="26.67" x2="48.635684375" y2="26.67" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$1">
-<contactref element="U4" pad="3"/>
-<contactref element="C1" pad="+"/>
+<contactref element="U2" pad="3"/>
+<contactref element="C2" pad="+"/>
 <contactref element="G3" pad="+@1"/>
 <contactref element="G3" pad="+@2"/>
 <wire x1="17.78" y1="31.765" x2="17.78" y2="25.4" width="0.4064" layer="1"/>
@@ -2379,7 +2379,7 @@ Your Eurocircuits Team
 </signal>
 <signal name="N$3">
 <contactref element="LED1" pad="4"/>
-<contactref element="R5" pad="1"/>
+<contactref element="R4" pad="1"/>
 <wire x1="34.442" y1="43.18" x2="41.91" y2="43.18" width="0.4064" layer="1"/>
 <via x="41.91" y="43.18" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="41.91" y1="43.18" x2="48.26" y2="41.91" width="0.4064" layer="16"/>
@@ -2389,30 +2389,30 @@ Your Eurocircuits Team
 <wire x1="49.53" y1="38.608" x2="48.59" y2="37.668" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$4">
-<contactref element="R3" pad="2"/>
+<contactref element="R5" pad="2"/>
 <contactref element="LED1" pad="5"/>
 <wire x1="47.142" y1="44.45" x2="46.99" y2="44.298" width="0.4064" layer="1"/>
 <wire x1="46.99" y1="44.298" x2="46.99" y2="37.668" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$7">
-<contactref element="U$2" pad="3"/>
-<contactref element="R6" pad="1"/>
+<contactref element="SW1" pad="3"/>
+<contactref element="R3" pad="1"/>
 <wire x1="35.56" y1="27.94" x2="35.712" y2="27.788" width="0.4064" layer="1"/>
 <wire x1="35.712" y1="27.788" x2="38.1" y2="27.788" width="0.4064" layer="1"/>
 </signal>
 <signal name="+5V">
-<contactref element="U4" pad="2"/>
-<contactref element="C2" pad="+"/>
-<contactref element="U$2" pad="1"/>
-<contactref element="C5" pad="1"/>
-<contactref element="C4" pad="1"/>
+<contactref element="U2" pad="2"/>
+<contactref element="C4" pad="+"/>
+<contactref element="SW1" pad="1"/>
+<contactref element="C3" pad="1"/>
+<contactref element="C1" pad="1"/>
 <contactref element="U1" pad="8"/>
 <contactref element="R2" pad="2"/>
 <contactref element="R1" pad="2"/>
 <contactref element="LED1" pad="6"/>
-<contactref element="U2" pad="1"/>
+<contactref element="U3" pad="1"/>
 <contactref element="SJ1" pad="1"/>
-<contactref element="C3" pad="1"/>
+<contactref element="C5" pad="1"/>
 <contactref element="J1" pad="2"/>
 <wire x1="35.56" y1="25.4" x2="41.91" y2="25.4" width="0.4064" layer="1"/>
 <wire x1="41.91" y1="25.4" x2="43.18" y2="24.13" width="0.4064" layer="1"/>

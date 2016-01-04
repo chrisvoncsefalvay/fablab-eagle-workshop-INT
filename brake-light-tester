@@ -1,0 +1,85 @@
+Netlist
+
+Exported from brake-light-tester.sch at 04/01/2016 10:00
+
+EAGLE Version 7.3.0 Copyright (c) 1988-2015 CadSoft
+
+Net      Part     Pad      Pin        Sheet
+
++5V      C1       1        1          1
+         C3       1        1          1
+         C4       +        +          1
+         C5       1        1          1
+         J1       2        +V         1
+         LED1     6        BLUE       1
+         R1       2        2          1
+         R2       2        2          1
+         SJ1      1        1          1
+         SW1      1        1          1
+         U1       8        VCC        1
+         U2       2        OUT        1
+         U3       1        VDD        1
+
+GND      C1       2        2          1
+         C2       -        -          1
+         C4       -        -          1
+         C5       2        2          1
+         G1       -        -          1
+         J1       6        GND        1
+         LED1     1        BGND       1
+         LED1     2        GGND       1
+         LED1     3        RGND       1
+         R3       2        2          1
+         SJ1      3        3          1
+         U1       4        GND        1
+         U2       1        ADJ        1
+         U3       3        GND        1
+
+N$1      C2       +        +          1
+         G3       +@1      +          1
+         G3       +@2      +          1
+         U2       3        IN         1
+
+N$2      SJ1      2        2          1
+         U3       2        ADDR       1
+
+N$3      LED1     4        RED        1
+         R4       1        1          1
+
+N$4      LED1     5        GRN        1
+         R5       2        2          1
+
+N$5      G1       +@1      +          1
+         G1       +@2      +          1
+         G2       -        -          1
+
+N$6      G2       +@1      +          1
+         G2       +@2      +          1
+         G3       -        -          1
+
+N$7      R3       1        1          1
+         SW1      3        3          1
+
+PB0      J1       4        MOSI       1
+         R1       1        1          1
+         U1       5        PB0        1
+         U3       6        SDA        1
+
+PB1      J1       1        MISO       1
+         U1       6        PB1        1
+
+PB2      J1       3        SCK        1
+         R2       1        1          1
+         U1       7        PB2        1
+         U3       4        SCL        1
+
+PB3      R4       2        2          1
+         U1       2        PB3        1
+
+PB4      R5       1        1          1
+         U1       3        PB4        1
+
+PB5      C3       2        2          1
+         J1       5        RST        1
+         U1       1        PB5        1
+
