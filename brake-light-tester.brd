@@ -2025,6 +2025,16 @@ Your Eurocircuits Team
 <via x="49.53" y="24.13" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="49.53" y1="24.13" x2="49.53" y2="24.255" width="0.4064" layer="16"/>
 <wire x1="49.53" y1="24.255" x2="46.495" y2="27.29" width="0.4064" layer="16"/>
+<polygon width="0.4064" layer="1">
+<vertex x="7.62" y="64.77"/>
+<vertex x="7.62" y="6.35"/>
+<vertex x="17.78" y="-3.81"/>
+<vertex x="58.42" y="-3.81"/>
+<vertex x="59.69" y="-3.81"/>
+<vertex x="67.31" y="3.81"/>
+<vertex x="67.31" y="57.15"/>
+<vertex x="59.69" y="64.77"/>
+</polygon>
 </signal>
 <signal name="PB0">
 <contactref element="U2" pad="6"/>
