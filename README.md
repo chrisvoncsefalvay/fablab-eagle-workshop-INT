@@ -1,7 +1,7 @@
 # FabLab EAGLE workshop (INTRODUCTORY)
 The official repo for the Munich Fablab EAGLE introductory course 
 
-![](https://raw.githubusercontent.com/chrisvoncsefalvay/fablab-eagle-workshop-INT/master/top.png =250x) ![](https://raw.githubusercontent.com/chrisvoncsefalvay/fablab-eagle-workshop-INT/master/bottom.png =250x)
+![](https://raw.githubusercontent.com/chrisvoncsefalvay/fablab-eagle-workshop-INT/master/top.png |width=250) ![](https://raw.githubusercontent.com/chrisvoncsefalvay/fablab-eagle-workshop-INT/master/bottom.png |width=250)
 
 ## The board
 The board used to demonstrate EAGLE's functionality is a small ATtiny based brake light tester. The general idea is as follows. Upon resetting the device, an ambient light measurement is taken for five seconds. At the end of the five seconds, you must have attached the device to your light. The device then enters measurement mode. The LED will light up red and turn green if and only if the brake light has lit up. After 60 seconds of no signal, the device will enter sleep. 
