@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -164,6 +164,14 @@
 <wire x1="60.96" y1="26.67" x2="60.96" y2="6.35" width="0.4064" layer="20"/>
 <wire x1="60.96" y1="6.35" x2="54.61" y2="0" width="0.4064" layer="20" curve="-90"/>
 <wire x1="54.61" y1="0" x2="27.94" y2="0" width="0.4064" layer="20"/>
+<dimension x1="13.97" y1="13.97" x2="60.96" y2="13.97" x3="37.465" y3="-5.08" textsize="1.778" layer="47"/>
+<dimension x1="13.97" y1="13.97" x2="13.97" y2="50.8" x3="7.62" y3="32.385" textsize="1.778" layer="47"/>
+<dimension x1="25.4" y1="50.8" x2="15.40838125" y2="56.3509" x3="8.589953125" y3="60.138915625" textsize="1.778" layer="47" dtype="radius"/>
+<dimension x1="27.94" y1="13.97" x2="17.27549375" y2="4.9461875" x3="11.32108125" y3="-0.092159375" textsize="1.778" layer="47" dtype="radius"/>
+<dimension x1="27.94" y1="6.35" x2="15.24" y2="6.35" x3="21.59" y3="-2.54" textsize="1.778" layer="47"/>
+<dimension x1="55.88" y1="35.56" x2="60.96" y2="35.56" x3="58.42" y3="39.37" textsize="1.778" layer="47"/>
+<dimension x1="55.88" y1="53.34" x2="55.88" y2="35.56" x3="72.39" y3="44.45" textsize="1.778" layer="47"/>
+<dimension x1="46.99" y1="53.34" x2="54.102" y2="58.674" x3="50.546" y3="56.007" textsize="1.778" layer="47" dtype="radius"/>
 </plain>
 <libraries>
 <library name="microbuilder">
